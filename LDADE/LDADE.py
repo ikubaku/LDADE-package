@@ -75,7 +75,7 @@ class UserTestConfig(BaseConfig):
                                                    (0.01, 1)],
                              learners_para_categories=["integer",
                                                        "continuous",
-                                                       "continuous"])
+                                                       "categorical"])
 
 
 def LDADE(config):
