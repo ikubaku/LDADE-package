@@ -6,7 +6,7 @@ import sys
 
 sys.dont_write_bytecode = True
 
-from LDADE import LDADE, UserTestConfig
+from ..LDADE import LDADE, UserTestConfig
 from collections import Counter
 import numpy as np
 from random import seed

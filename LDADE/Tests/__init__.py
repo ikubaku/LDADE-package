@@ -1,1 +1,1 @@
-from LDADE_test import demo
+from .LDADE_test import demo

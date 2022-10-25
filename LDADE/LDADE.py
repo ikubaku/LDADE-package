@@ -4,9 +4,9 @@ __author__ = 'amrit'
 
 import sys
 sys.dont_write_bytecode = True
-from ldaVEM import *
+from .ldaVEM import *
 
-from DE import DE
+from .DE import DE
 from collections import OrderedDict
 
 
