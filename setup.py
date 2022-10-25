@@ -5,7 +5,7 @@ setup(
     name='LDADE',
 
     # TODO: NEED TO BE CHANGED LATER
-    version='2018.03.27',
+    version='2022.10.25',
 
     author='Amritanshu Agrawal',
     author_email='aagrawa8@ncsu.edu',
@@ -18,14 +18,17 @@ setup(
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
     ],
 
     packages=find_packages(),
     package_dir={'LDADE': 'LDADE'},
     package_data={'LDADE': ['data/*']},
 
-    python_requires='>=2.7, < 3',
+    python_requires='>=3.7',
     install_requires=["numpy", "sklearn"]
 )
