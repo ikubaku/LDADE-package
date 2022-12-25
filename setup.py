@@ -30,5 +30,5 @@ setup(
     package_data={'LDADE': ['data/*']},
 
     python_requires='>=3.7',
-    install_requires=["numpy", "sklearn"]
+    install_requires=["numpy", "scikit-learn"]
 )
