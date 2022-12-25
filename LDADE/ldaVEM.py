@@ -92,7 +92,7 @@ def _test_LDA(data_samples=[], term=7, random_state=1,max_iter=100,runs=10, **l)
         lda1 = LatentDirichletAllocation(max_iter=max_iter,learning_method='online',random_state=random_state,**l)
 
         lda1.fit_transform(tf)
-        tf_feature_names = tf_vectorizer.get_feature_names()
+        tf_feature_names = tf_vectorizer.get_feature_names_out().tolist()
         topics.append(get_top_words(lda1, tf_feature_names, term, i=i))
     return topics
 
