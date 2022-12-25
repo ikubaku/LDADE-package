@@ -5,7 +5,7 @@ setup(
     name='LDADE',
 
     # TODO: NEED TO BE CHANGED LATER
-    version='2022.10.25',
+    version='2022.12.25',
 
     author='Amritanshu Agrawal',
     author_email='aagrawa8@ncsu.edu',
